@@ -1,0 +1,446 @@
+html{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    
+
+}
+
+
+header{
+
+    font-size: 1.2rem;
+    background-image: url(../Images/hero-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top top;
+    position: relative;
+   }
+
+.navbar{
+
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+
+ .overly::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    
+   }
+
+
+
+
+   nav a{
+    font-size: 1.1rem;
+    position: relative;  
+    
+   
+    
+}
+nav li{
+  padding:0 5px; 
+  padding-top:5px;
+}
+
+.menu a::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+
+.menu a:hover::after{
+
+  width:80%
+
+}
+
+.line-u a::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+
+} 
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   Second Division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.image-1{
+
+  height:150px;
+  width:150px;
+}
+
+.title-2{
+
+    position: relative;
+}
+
+.title-left::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+  left:0;
+}
+
+.line-mf{
+
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
+.title-a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}  
+
+.main-title{
+
+text-align: center;
+}
+
+.progress {
+    border-radius: 0;
+    background-color: #cde1f8;
+  }
+
+  .lead{
+    
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+  }
+
+
+  .second-p{
+
+    padding-top: 2%;
+
+  }
+
+  .progress-title{
+
+    padding-top: 20px;
+  }
+
+  
+
+  .service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+
+
+  .service-box .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;}
+
+
+    .ico-circle:hover{
+
+     background-color: #0078ff ;
+     color:white;
+     box-shadow: 0 0 0 10px #0077ff34;
+
+
+    }
+
+
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   Third Division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+.image-third{
+
+  background-image: url(../Images/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  color: white; 
+  text-align: center;
+  padding: 50px; 
+  position: relative;
+  
+  
+}
+
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  background-color: #0078ff;
+  
+}
+
+.c-third{
+
+  position: relative;
+  z-index: 2;
+}
+
+.counter-ico .ico-circle {
+  
+  height: 60px;
+  width: 60px;
+  line-height: 1.5;
+  box-shadow: 0 0 0 10px #cde1f8;}
+  
+
+ .w-like {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;}
+
+    .w-ctegory {
+      font-size: 0.8rem;
+      color: #0078ff;
+    }
+
+    .work-content{
+      font-size: 0.8rem;
+
+      }
+
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .work-img{
+
+        position: relative;
+        overflow: hidden;
+        
+      }
+
+      .work-img img {
+        transition: all 1s;
+      }
+
+      .work-img:hover img{
+        transform: scale(1.2);
+      }
+
+     
+ /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   Forht Division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+ .carousel-indicators [data-bs-target] {
+
+        height:15px !important;
+        width:15px !important;
+        border-radius: 50%;
+        margin: 0 10px;
+
+ }
+
+
+      .carousel-prim{
+
+        background-image: url(../Images/overlay-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; 
+        color: white; 
+        padding: 50px; 
+        position: relative;
+      }
+
+      .c-img{
+        width:150px;
+        height:150px;
+        border:1px solid black;
+        border-radius: 50%;             
+      }
+
+     .overlay-c{
+
+      position: absolute;
+      top: 0;
+      left: 0px;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #0077ff73;
+      
+     }
+
+
+
+ /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   Fifth Division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.card-footer{
+
+  background-color: rgba(220, 220, 220, 0.24);
+}
+
+
+.small-img{
+
+  width:50px;
+  height:50px;
+}
+
+
+.card-category {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+.card-category .category {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.card-category-box {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-body{
+
+position: relative;
+
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   contanct Division   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.contact-div{
+
+    position:relative;
+    z-index: 2;
+}
+
+
+.custom-btn{
+
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 5rem;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+
+
+
+
+.service-ico2 .ico-circle2 {
+  
+  height: 40px;
+  width: 40px;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+    
+} 
+
+.service-ico2 .ico-circle2 {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;}
+
+  .service-ico2 a{
+
+  color: #1e1e1e;
+
+}
+
+.service-ico2 .ico-circle2:hover{
+
+  background-color: #0078ff ;
+  color:white;
+  box-shadow: 0 0 0 10px #0077ff34;
+
+
+ }
+
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  background: #0062d3;
+}
